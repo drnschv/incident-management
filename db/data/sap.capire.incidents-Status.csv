@@ -1,0 +1,7 @@
+code,criticality,name,descr
+N,3,New,New
+A,2,Assigned,Assigned
+I,2,In Process,In Process
+H,3,On Hold,On Hold
+R,2,Resolved,Resolved
+C,4,Closed,Closed
