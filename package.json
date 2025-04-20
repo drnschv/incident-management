@@ -14,6 +14,12 @@
     "@cap-js/cds-types": "^0.9.0"
   },
   "scripts": {
-    "start": "cds-serve"
-  }
+    "start": "cds-serve",
+    "watch-incidents": "cds watch --open incidents/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-incidents-flp": "cds watch --open incidents/webapp/test/flpSandbox.html",
+    "watch-incidents-launchpage": "cds watch --open launchpage.html#Shell-home"
+  },
+  "sapux": [
+    "app/incidents"
+  ]
 }
