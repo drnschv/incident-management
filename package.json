@@ -21,5 +21,30 @@
   },
   "sapux": [
     "app/incidents"
-  ]
+  ],
+
+"cds": {
+  "requires": {
+    "[development]": {
+      "auth": {
+        "kind": "mocked",
+        "users": {
+          "support": {
+            "password": "initial",
+            "roles": ["support"]
+          },
+          "admin": {
+            "password": "initial",
+            "roles": ["admin"]
+          },
+          "otro": {
+            "roles": ["support"]
+          }
+        }
+      }
+    }
+  }
+}
+
+
 }
